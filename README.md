@@ -5,14 +5,14 @@ How it works:
 
 This is the File:
 
-This is some text.
-It can be whatever i want!
-i hope the text is good.
-if it is not then i will be unhappy!
-how are you feeling today because i am feeling good with this!
-this is because my machine is epic!
-yes, you read that right, it is epic.
-i am a communist!
+This is some text.\n
+It can be whatever i want!\n
+i hope the text is good.\n
+if it is not then i will be unhappy!\n
+how are you feeling today because i am feeling good with this!\n
+this is because my machine is epic!\n
+yes, you read that right, it is epic.\n
+i am a communist!\n
 
 Step1: Picks a random word that is the start of a line
 
