@@ -37,7 +37,17 @@ for line in file:
           mydict[line[word]][line[word+1]] = 1
       else:
         endwords.append(line[word])
-      
+
+
+        if line[word] in mydict:
+          pass
+        ### If its not create a dictionary for it
+        else:
+          mydict[line[word]]=dict()
+        if "null1029384756" in mydict[line[word]]:
+          mydict[line[word]]["null1029384756"] +=1
+        else:
+          mydict[line[word]]["null1029384756"] = 1
 ###
 #print(mydict)
 #print(endwords)
@@ -58,8 +68,8 @@ def Part2(mydict,startwords,endwords):
     newWord = random.choice(posWords)
     curWord=newWord
     newWord="null"
-    if curWord in endwords:
-      sentence.append(curWord)
+    if curWord == "null1029384756":
+      #sentence.append(curWord)
       running=False
   sentence = " ".join(sentence)
   return sentence
@@ -71,6 +81,3 @@ while True:
   input()
 
   
-
-
-
