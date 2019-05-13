@@ -5,6 +5,8 @@ How it works:
 
 This is the File:
 
+################
+
 This is some text.
 
 It can be whatever i want!
@@ -21,6 +23,7 @@ yes, you read that right, it is epic.
 
 i am a communist!
 
+################
 
 Step1: Picks a random word that is the start of a line
 
